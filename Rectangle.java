@@ -1,7 +1,7 @@
 public class Rectangle {
 
     // Fields to store the length and width of the rectangle
-    private double length;
+    private double length; 
     private double width;
  
     // Constructor that allows setting custom length and width
@@ -51,5 +51,9 @@ public class Rectangle {
         return "length: " + getLength() + "\nwidth: " + getWidth() +
                "\nperimeter: " + perimeter() + "\narea: " + area();
         // Constructs a string with the rectangle's length, width, perimeter, and area
+    }
+
+    public void test(){
+        
     }
  }
