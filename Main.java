@@ -23,7 +23,28 @@ public class Main {
             
         }
         System.out.println(list.size());
-        
+
+        Triangle t1 = new Triangle(4,20);
+        Triangle t2 = new Triangle(34,2);
+        Triangle t3 = new Triangle(17,5);
+        Triangle t4 = new Triangle(36,11);
+        Triangle t5 = new Triangle(4,9);
+        List<Triangle> list1 = new ArrayList<>();
+
+        list1.add(t1);
+        list1.add(t2);
+        list1.add(t3);
+        list1.add(t4);
+        list1.add(t5);
+
+        for(int i = 0 ; i < list1.size() ; i++){
+            if(list1.get(i).perimeterTri() < 50 ){
+                list1.remove(list1.get(i));
+            }
+
+        }
+        System.out.println(list1.size());
+
         
 
     }
